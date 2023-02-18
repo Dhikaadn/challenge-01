@@ -1,0 +1,45 @@
+.nav-item{
+    margin-left: 30px;
+}
+
+.jumbotron{
+    padding: 80px;
+    background-image: url("img/cover.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+.nav-item:hover{
+    background-color: #FFC300;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+#sign{
+    color: white;
+}
+
+#sign-ex{
+    background-color: #1E557B;
+    border-radius: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#sign-ex:hover{
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-brand{
+        margin-right: -100px;
+    }
+
+    .jumbotron{
+        height: 700px;
+    }
+}
