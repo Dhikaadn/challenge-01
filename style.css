@@ -43,3 +43,12 @@
         height: 700px;
     }
 }
+
+@media only screen and (max-width: 992px) {
+    #service-img{
+        text-align: center;
+    }
+    #service-text{
+        margin-top: 50px;
+    }
+}
