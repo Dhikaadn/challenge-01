@@ -27,7 +27,7 @@
               <img class="me-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAi9JREFUWEftl+0xLUEQhl8RIAJEgAgQASJABK4IEAEyIAJEgAyIABkQgVtP1eypPn1mdnpnUUrpP+fH6Zl55p3+2jn9MJv7YTz6dUBrkvYk7SSlbyRdSXpsVb5FoWVJ25L2JQGUsxdJTXBRoIUEgRKdGlERBsHVgDgcNfgFytt7UgI1OBjV8F1qVS4HZOOC58nZrQF5yziwRxOcByIYVwsQT5IuEwhqRC0CN+HwQB/ulNcEAEhz5pg9S3C9QDYuiA2MjTYKcRRRimd9cJeycJPQ8Arx7kDYuLhPMJGDaz7svdvnVMuyc0mHtVMG/n8h6V9pTR8QMj6bhUiOWi226VRedK8w2bMPiFucJU9g2HSM2Qw+SBk7s18fUGiDAYT2gtSxbMUvAfnnKko8ACi0ZwkodJsBMJ1rVfUSUHVhAwxLqhfNAXlpSf1cv2phYm9qXWcrqSkXs4zqeTeiIg+F5KJbtoJ7hT6zKkfhCI/1zrnWXElPOnvfjBM9uGvU3cRp14W6vS9eyDsfPd35AWNnKxvcuIaAfO1hBGGgbzHfv3zihIB4VzsD9Q1vNUhfmQmBa7MoBESAk/L0MeZqFBpjPBNgzOb0SNsbi0Bj4qQVdiq+fJZ9xfxTA52Kr1ylZqrjib7DZrp+DuhE0rGjqU2WUXj/EXEqifOKrYM/PBBDf+4jMQph/TzQUUqcXiD6GRnVfZ/N3KKFJK0hRmmuFFiCmUyb+sb7rKcYwTi99A+oJuV/LyyAJYbWZzsAAAAASUVORK5CYII="/>
               <strong>Binar Car Rental</strong>
             </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav">
@@ -134,10 +134,8 @@
         </div>
       </div>
     </div>
-
-
     
-     <div class="row p-5 me-4 mt-4">
+    <div class="row p-5 me-4 mt-4">
       <h1 class="fs-3 text-center">Testimonial</h1><br>
       <p class="fw-normal text-center">Berbagai review positif dari para pelanggan kami</p>
           <div class="col-12 m-auto">
@@ -156,8 +154,7 @@
                                 </svg></a>
 
                                 <p class="card-text fw-normal mt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
-                                <p class="fw-medium">Andhika 30, Semarang</p>
-                                                              
+                                <p class="fw-medium">Andhika 30, Semarang</p>                               
                           </div>
                       </div>
                   </div>
@@ -240,6 +237,13 @@
           </div>
       </div>
     
+      <div class="card mx-auto" id="card-blue">
+        <div class="card-body text-center">
+          <p class="card-title mb-4 mt-4" style="font-size: 36px;">Sewa Mobil di Semarang Sekarang</p>
+          <p class="lead mb-4" style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button class="border-0 text-white rounded-2 p-2 mb-4" style="background-color: #5CB85F;">Mulai Sewa Mobil</button>
+        </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -255,7 +259,7 @@
         $('.owl-carousel').owlCarousel({
             loop: true,
             margin: 15,
-            nav: true,
+            nav: false,
             responsive: {
                 0: {
                     items: 1
@@ -269,5 +273,6 @@
             }
         })
     </script>
+     
   </body>
 </html>

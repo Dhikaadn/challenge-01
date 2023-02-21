@@ -48,6 +48,12 @@
     
 }
 
+#card-blue{
+    background-color: #0D28A6;
+    color: white;
+    width: 89%;
+}
+
 @media only screen and (max-width: 400px) {
     .navbar-brand{
         margin-right: -100px;
