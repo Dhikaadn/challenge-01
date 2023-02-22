@@ -44,9 +44,6 @@
     font-family: Helvetica;
 }
 
-.people1-img{
-    
-}
 
 #card-blue{
     background-color: #0D28A6;
@@ -59,30 +56,36 @@
     transition: 1s;
 }
 
-@media only screen and (max-width: 404px) {
-    .jumbotron{
-        height: 1000px;
-    }
+#dropdownMenuReference:hover{
+    background-color: rgb(249, 239, 239);
+    color: black;
 }
 
-@media only screen and (max-width: 576px) {
-    #whyus-card{
-        margin-left: auto;
-    }
 
-    #whyus-text{
-        text-align: center;
-    }
+
+#reference-drop{
+    width: 520px;
+    text-align: start;
 }
+
+#container-faq{
+    margin-right: 10px;
+}
+
+
+.dropdown-menu{
+    background-color: aliceblue;
+}
+
+.list-group-item{
+    padding: 10px;
+}
+
 
 @media only screen and (max-width: 400px) {
     .navbar-brand{
         margin-right: -100px;
     }
-}
-
-#reference-drop{
-    padding-right: 500px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -104,4 +107,19 @@
     }
 }
 
+@media only screen and (max-width: 404px) {
+    .jumbotron{
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #whyus-card{
+        margin-left: auto;
+    }
+
+    #whyus-text{
+        text-align: center;
+    }
+}
 
