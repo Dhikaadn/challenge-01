@@ -53,7 +53,7 @@
                 </ul>
           </div>
       </div>
-  </nav>
+    </nav>
 
     <div class="jumbotron">
         <h1 class="display-4 text-white pt-5"><b>Sewa & Rental Mobil Terbaik di<br>Kawasan Semarang</br></h1>
@@ -83,9 +83,9 @@
     </div>
 
     <div class="container">
-      <h1 class="fs-3">Why us?</h1><br>
-      <p class="lead">Mengapa Harus pilih Binar Car Rental?</p>
-      <div class="row">
+      <h1 class="fs-3" id="whyus-text">Why us?</h1><br>
+      <p class="lead" id="whyus-text">Mengapa Harus pilih Binar Car Rental?</p>
+      <div class="row" id="whyus-card">
         <div class="col-lg card me-4">
           <div class="card-body">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -241,17 +241,38 @@
         <div class="card-body text-center">
           <p class="card-title mb-4 mt-4" style="font-size: 36px;">Sewa Mobil di Semarang Sekarang</p>
           <p class="lead mb-4" style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button class="border-0 text-white rounded-2 p-2 mb-4" style="background-color: #5CB85F;">Mulai Sewa Mobil</button>
+          <button class="border-0 text-white rounded-2 p-2 mb-4 fw-bold" id="button-green" style="background-color: #5CB85F;">Mulai Sewa Mobil</button>
         </div>
       </div>
+
+      <div class="row mt-5">
+        <div class="col text-center">
+          <h2>Frequently Asked Question</h2>
+          <p class="fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="col text-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary" id="reference-drop">Reference</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous"></script>
@@ -259,7 +280,7 @@
         $('.owl-carousel').owlCarousel({
             loop: true,
             margin: 15,
-            nav: false,
+            nav: true,
             responsive: {
                 0: {
                     items: 1

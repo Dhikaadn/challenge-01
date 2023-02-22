@@ -54,14 +54,35 @@
     width: 89%;
 }
 
+#button-green:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 404px) {
+    .jumbotron{
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #whyus-card{
+        margin-left: auto;
+    }
+
+    #whyus-text{
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .navbar-brand{
         margin-right: -100px;
     }
+}
 
-    .jumbotron{
-        height: 700px;
-    }
+#reference-drop{
+    padding-right: 500px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -82,3 +103,5 @@
         margin-top: 20px;
     }
 }
+
+
