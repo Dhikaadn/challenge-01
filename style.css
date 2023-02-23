@@ -81,6 +81,12 @@
     padding: 10px;
 }
 
+#sosmed-btn{
+    background-color: #0D28A6;
+    display: inline;
+    margin-right: 10px;
+}
+
 
 @media only screen and (max-width: 400px) {
     .navbar-brand{
@@ -104,6 +110,14 @@
     }
     .card{
         margin-top: 20px;
+    }
+
+    #connect-text{
+        margin-top: 25px;
+    }
+
+    #copyright-text{
+        margin-top: 25px;
     }
 }
 
