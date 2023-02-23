@@ -3,10 +3,9 @@
     color: white;
 }
 
-.jumbotron{
-    padding: 80px;
-    background-image: url("img/cover.jpg");
-    background-size: cover;
+header{
+    padding: 50px;
+    background-color: #F1F3FF;
     height: 650px;
 }
 
