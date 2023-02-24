@@ -9,6 +9,10 @@ header{
     height: auto;
 }
 
+#navbar-top{
+    background-color: #F1F3FF;
+}
+
 .nav-item:hover{
     background-color: #FFC300;
     transition: 1s;
@@ -115,13 +119,40 @@ header{
     background-color: #72b775;
 }
 
+#circle-green{
+    margin-bottom: 250px;
+    margin-left: 50px;
+    position: relative;
+    background-color: #92D094;
+}
+
+#circle-yellow{
+    margin-top: -40px;
+    margin-left: 140px;
+    position: relative;
+    background-color: #F9CC00;
+}
+
+#circle-red{
+    margin-top: -760px;
+    margin-left: 250px;
+    position: relative;
+    background-color: #FA2C5A;
+}
+
+@media only screen and (max-width: 1086px) {
+    #header-left{
+        margin-right: 100px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #mobil-img-bg{
         padding-top: 90px;
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .mobil-jpg{
         position: absolute;
         left: 10px;
@@ -152,12 +183,6 @@ header{
 }
 
 @media only screen and (max-width: 992px) {
-    #service-img{
-        text-align: center;
-    }
-    #service-text{
-        margin-top: 50px;
-    }
     .navbar-nav{
         margin-right: 290px;
         text-align: center;
@@ -177,6 +202,40 @@ header{
         margin-top: 25px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    #service-img{
+        text-align: center;
+    }
+    #service-text{
+        margin-top: 50px;
+    }
+
+    #circle-yellow{
+        margin-top: 200px;
+        margin-left: -440px;
+        position: relative;
+        background-color: #F9CC00;
+    }
+
+    #circle-red{
+        margin-top: -380px;
+        margin-left: 270px;
+        position: relative;
+        background-color: #FA2C5A;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #circle-green{
+        margin-bottom: 300px;
+        margin-left: 20px;
+        position: relative;
+        background-color: #92D094;
+    }
+}
+
+
 
 @media only screen and (max-width: 404px) {
     .jumbotron{
