@@ -90,6 +90,10 @@ header{
     margin-right: 10px;
 }
 
+#sosmed-btn:hover{
+    opacity: 0.5;
+}
+
 #header-right{
     padding-top: 150px;
 }
@@ -160,11 +164,6 @@ header{
         width: 100vw;
     }
 }
-
-
-
-
-
 
 
 

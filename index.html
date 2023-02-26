@@ -277,64 +277,74 @@
     <section>
       <div class="container">
         <div class="row mt-5">
-          <div class="col text-center">
+          <div class="col-lg text-center">
             <h2>Frequently Asked Question</h2>
             <p class="fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
           </div>
-          <div class="col text-center" id="container-faq">
-            <div class="btn-group pb-3">
-              <button type="button" class="btn btn-white btn-outline-dark text-black border-end-0 pe-5" id="reference-drop" disabled>Apa saja syarat yang dibutuhkan?</button>
-              <button type="button" class="btn btn-white btn-outline-dark dropdown-toggle dropdown-toggle-split border-start-0" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
-                <span class="visually-hidden">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuReference">
-                <li class="list-group-item fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel,<br> maiores autem quos, aliquid sequi amet rerum commodi<br> deserunt porro cum quia a assumenda, voluptatibus nobis <br>perspiciatis natus ipsam?</li>
-                <li><hr class="dropdown-divider"></li>
-              </ul>
-            </div>
-  
-            <div class="btn-group pb-3">
-              <button type="button" class="btn btn-white btn-outline-dark text-black border-end-0 pe-5" id="reference-drop" disabled>Berapa hari minimal sewa mobil lepas kunci?</button>
-              <button type="button" class="btn btn-white btn-outline-dark dropdown-toggle dropdown-toggle-split border-start-0" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
-                <span class="visually-hidden">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuReference">
-                <li class="list-group-item fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel,<br> maiores autem quos, aliquid sequi amet rerum commodi<br> deserunt porro cum quia a assumenda, voluptatibus nobis <br>perspiciatis natus ipsam?</li>
-                <li><hr class="dropdown-divider"></li>
-              </ul>
-            </div>
-  
-            <div class="btn-group pb-3">
-              <button type="button" class="btn btn-white btn-outline-dark text-black border-end-0 pe-5" id="reference-drop" disabled>Berapa hari sebelumnya sabaiknya booking sewa mobil?</button>
-              <button type="button" class="btn btn-white btn-outline-dark dropdown-toggle dropdown-toggle-split border-start-0" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
-                <span class="visually-hidden">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuReference">
-                <li class="list-group-item fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel,<br> maiores autem quos, aliquid sequi amet rerum commodi<br> deserunt porro cum quia a assumenda, voluptatibus nobis <br>perspiciatis natus ipsam?</li>
-                <li><hr class="dropdown-divider"></li>
-              </ul>
-            </div>
-  
-            <div class="btn-group pb-3">
-              <button type="button" class="btn btn-white btn-outline-dark text-black border-end-0 pe-5" id="reference-drop" disabled>Apakah Ada biaya antar-jemput?</button>
-              <button type="button" class="btn btn-white btn-outline-dark dropdown-toggle dropdown-toggle-split border-start-0" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
-                <span class="visually-hidden">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuReference">
-                <li class="list-group-item fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel,<br> maiores autem quos, aliquid sequi amet rerum commodi<br> deserunt porro cum quia a assumenda, voluptatibus nobis <br>perspiciatis natus ipsam?</li>
-                <li><hr class="dropdown-divider"></li>
-              </ul>
-            </div>
-  
-            <div class="btn-group pb-3">
-              <button type="button" class="btn btn-white btn-outline-dark text-black border-end-0 pe-5" id="reference-drop" disabled>Bagaimana jika terjadi kecelakaan?</button>
-              <button type="button" class="btn btn-white btn-outline-dark dropdown-toggle dropdown-toggle-split border-start-0" id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false" data-bs-reference="parent">
-                <span class="visually-hidden">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuReference">
-                <li class="list-group-item fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus vel,<br> maiores autem quos, aliquid sequi amet rerum commodi<br> deserunt porro cum quia a assumenda, voluptatibus nobis <br>perspiciatis natus ipsam?</li>
-                <li><hr class="dropdown-divider"></li>
-              </ul>
+          <div class="col-lg text-center" id="container-faq">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Apa saja syarat yang dibutuhkan?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body mb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, in dolorum! Praesentium, itaque voluptas reprehenderit adipisci est dolor iste ducimus corrupti modi culpa et ratione nam beatae doloribus voluptatibus cumque.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3 border border-1">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Berapa hari minimal sewa mobil lepas kunci?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body mb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium, ab sint possimus eveniet blanditiis enim eos et nobis odit facere distinctio ex. Praesentium repellendus, explicabo fugiat numquam cupiditate recusandae!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3 border border-1">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sed, provident ducimus tenetur inventore fugit, similique accusamus distinctio dolores alias aliquam perferendis quia, magnam maxime earum. Sit nulla minima commodi!
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border border-1">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Apakah Ada biaya antar-jemput?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus error commodi reiciendis nesciunt nulla eos dicta. Accusamus, quam animi aliquid numquam autem praesentium veritatis porro cumque, dicta, voluptatibus rerum.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border border-1">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Bagaimana jika terjadi kecelakaan?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit quas ipsa blanditiis laborum voluptates asperiores animi itaque. Cum quos ab veritatis assumenda quaerat incidunt odio reprehenderit suscipit, optio quasi?
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
